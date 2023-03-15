@@ -7,7 +7,7 @@ import pathlib
 script_template = """
 [FILENAMES]
 Exe=output/{filename}.mui
-SaveAs=output2/{filename}.mui
+SaveAs=output/{filename}.mui
 Log=logs/{filename}.mui.log
 [COMMANDS]
 -addoverwrite     {res_path}
